@@ -38,6 +38,11 @@
   <h2>What the results mean</h2>
   <p>TopoWave is a terrain-planning aid, not a guarantee of reception or coverage. Terrain data can include or omit buildings and vegetation depending on the source. Weather, interference, diffraction, antenna configuration, equipment performance, and local regulations also affect real links. Confirm equipment specifications and critical links in the field.</p>
 
+  <h2>Estimated RF coverage (Beta)</h2>
+  <p>On production builds where it is available, Coverage can show a separate <strong>Estimated RF (Beta)</strong> layer after a terrain analysis. You must explicitly turn it on. It uses the entered RF link budget and a terrain propagation model to show predicted received power or planning margin. Terrain visibility remains a different green/yellow/red assessment and the default map layer; an RF value never changes it.</p>
+  <p>RF beta is a second protected analysis, separate from the terrain-visibility request. A completed RF beta request uses an additional analysis allowance; leave it off when you only need terrain visibility. Failed service operations are refunded under the same rules as other analyses.</p>
+  <p>The beta supports terrestrial 30–6,000 MHz studies from 1–100 km. It does not model HF/skywave propagation, indoor coverage, interference, or all building, vegetation, weather, and regulatory effects. It is not a guarantee of reception, throughput, availability, safety, or regulatory compliance. Verify important coverage in the field. RF beta results are not currently included in saved terrain snapshots or exports.</p>
+
   <h2>Analysis allowance</h2>
   <p>Each new point-to-point terrain profile or coverage request uses one analysis. <strong>Check a saved pair</strong> also uses one analysis and shows that cost before it runs. Failed terrain-service operations are refunded, although temporary rate limits can still apply. Editing or saving plans, reviewing or comparing frozen results, optimizing heights, and exporting files do not use an analysis.</p>
   <p>A verified guest device currently receives 5 terrain analyses per day. Optional Sign in with Apple provides 10 terrain analyses per day. TopoWave does not request your name or email address from Apple. The account and analysis-access card displays the current allowance and reset information.</p>
