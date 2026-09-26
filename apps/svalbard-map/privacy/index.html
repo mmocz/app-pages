@@ -13,13 +13,36 @@
     </style>
   </head>
   <body>
-    <header><h1>Svalbard Map Privacy Policy</h1><p class="updated">Last updated: August 4, 2026</p></header>
-    <p>Svalbard Map is an offline map and track-recording aid for iPhone. This policy applies to the app and this support website.</p>
-    <section><h2>Information the app uses</h2><ul><li><strong>Location.</strong> With your permission, the app uses your location to show your position, centre the map, and record a track you choose to start. During an active recording, it can continue receiving location updates when the screen is locked or you use another app. iOS shows its location-use indicator during this use. The app does not use location in the background when you are not recording.</li><li><strong>Tracks, places and offline maps.</strong> Recorded tracks, saved places, downloaded map tiles and saved-area details are stored in the app’s private storage on your iPhone. They are not uploaded to the developer.</li><li><strong>Imported GPX files.</strong> A GPX file is read only when you select it for import. Its route is displayed in the app and is not sent to the developer.</li></ul></section>
-    <section><h2>Map-service requests</h2><p>When a map tile is not already saved, or you choose online-only satellite, orthophoto, nautical-chart or depth-data imagery, the app requests it from the Norwegian Polar Institute (NPI) or Kartverket map service. Like other web services, either provider may receive technical connection information such as an IP address and request time, and may infer the requested map area from the tile request. The app does not send your GPS location, recorded track, saved places or GPX-file contents to either provider. Their handling of service requests is governed by their own terms and privacy information.</p><p>Orthophoto, nautical-chart and depth-data images are not saved as offline maps. Recently viewed images may remain temporarily cached for up to 21 days, subject to a shared 150 MB limit and iOS storage reclamation.</p></section>
-    <section><h2>What the app does not do</h2><p>Svalbard Map does not provide user accounts, advertising, analytics, behavioural tracking, developer-operated cloud backups, or sale of personal information.</p></section>
-    <section><h2>Your choices and deletion</h2><p>You can decline or revoke location permission in iPhone Settings and stop a recording at any time. You can delete tracks, saved places and offline map areas in the app. Deleting the app removes its private on-device data, subject to iOS backup settings you control. Because the developer does not receive a copy of this on-device data, the developer cannot retrieve or delete it for you.</p></section>
-    <section><h2>Contact</h2><p>For privacy questions, contact <a href="mailto:info@sdilejslunce.cz">info@sdilejslunce.cz</a>.</p><p><strong>Developer:</strong> Adam Zemancik</p></section>
+    <header><h1>Svalbard Map Privacy Policy</h1><p class="updated">Last updated: September 26, 2026</p></header>
+    <p>This policy applies to Svalbard Map for iPhone and its support website. The app provides maps, route planning, track recording, offline reading and information from official data providers.</p>
+    <section><h2>Your data on your iPhone</h2>
+      <p>Svalbard Map has no user accounts, advertising or analytics. Recorded tracks, planned routes, saved places, imported GPX content and downloaded maps are stored on your iPhone. The developer does not receive copies of this content. Device backups remain subject to your iOS backup settings.</p>
+      <p>With your permission, the app uses location to show your position, centre the map, find conditions near the location you select, and record a track you choose to start. During an active recording, location updates can continue while your iPhone is locked or another app is open. The app does not record your background location when you are not recording a track.</p>
+    </section>
+    <section><h2>Map and official-data requests</h2>
+      <p>Online map imagery is requested directly from the Norwegian Polar Institute or Kartverket. Official snowmobile and protected-area/landing-site layers are requested from the Norwegian Environment Agency, and cultural-heritage layers from the Norwegian Directorate for Cultural Heritage. These services receive the request and ordinary connection information, which can include your IP address, request time and requested map area. The developer does not operate an intermediary server.</p>
+    </section>
+    <section><h2>Conditions requests</h2>
+      <p>When you open or refresh Conditions, the app requests information directly from the named providers. Conditions initially uses Longyearbyen. You can select your current location or a saved place instead.</p>
+      <ul>
+        <li>MET Norway receives the selected coordinate for forecasts and weather warnings.</li>
+        <li>Kartverket receives the selected coordinate for tides and water levels.</li>
+        <li>NVE receives the selected coordinate for avalanche bulletins.</li>
+        <li>MET Norway Frost receives the selected coordinate when locating a nearby observation station, followed by requests for that station&#x27;s observations. Frost observations are enabled in this release.</li>
+        <li>The MET Norway sea-ice request selects the Svalbard chart area.</li>
+      </ul>
+      <p>These requests do not include your recorded track, GPX file, saved-place name or notes. A selected saved place&#x27;s coordinate is sent when you use it as the Conditions location. Providers may receive connection information such as IP address and request time. Their own terms and privacy policies govern their handling of requests. The developer does not receive the requested coordinates or provider responses on a server.</p>
+      <p>Provider responses are cached on your iPhone so previously obtained information can remain available when connectivity fails. Old or unavailable information is labelled in the app.</p>
+      <p>MET Norway’s <a href="https://api.met.no/doc/TermsOfService">API terms</a> state that direct requests are logged with the user’s IP address and any requested coordinates. Its <a href="https://www.met.no/om-oss/personvern">privacy statement</a> describes IP-address retention of up to 90 days for meteorological websites used without a login. The app does not promise that provider requests are anonymous or immediately deleted.</p>
+    </section>
+    <section><h2>Widgets and Live Activities</h2>
+      <p>The app shares a compact Conditions summary, including the selected location name and coordinate, with its widget extension through a private on-device App Group. Widgets read this cached summary rather than requesting live provider data themselves. An active recording can display its name, elapsed time, distance, elevation and GPS status in a Live Activity. These summaries may be visible on your Home Screen or Lock Screen according to your device settings.</p>
+    </section>
+    <section><h2>Importing, sharing and deletion</h2>
+      <p>A GPX file is read when you select it for import. Sharing a place, route, recorded track or coordinate uses the system share sheet or the destination you choose. That destination&#x27;s handling of shared data is governed by its own policies.</p>
+      <p>You can revoke location access in iPhone Settings, stop recording, and delete saved places, routes, tracks and downloaded maps in the app. Deleting the app removes its private app data, subject to iOS backup and shared-container behaviour. The developer cannot retrieve or delete an on-device copy for you.</p>
+    </section>
+    <section><h2>Support website and contact</h2><p>This static website is hosted on GitHub Pages. GitHub may process connection and website-use information under its <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">privacy statement</a>. No advertising or analytics scripts are added to this website.</p><p>If you email support, the developer receives your email address and the information you choose to include, and uses them to respond to your request. Do not include tracks, coordinates or other personal content unless you intend to share it.</p><p>For privacy questions, contact <a href="mailto:info@sdilejslunce.cz">info@sdilejslunce.cz</a>.</p><p><strong>Developer:</strong> Adam Zemancik</p></section>
     <section><h2>Changes to this policy</h2><p>Material changes will be reflected by updating this policy and its “Last updated” date.</p></section>
     <footer><a href="../support/">Support</a> · <a href="https://github.com/mmocz/SvalbardMap">Source repository</a></footer>
   </body>
